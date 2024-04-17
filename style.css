@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: white;
+}
+ #prev{
+    color: black;
+    background-color: black;
+    font-size: 28px !important;
+    border-radius:50% ;
+}
+
+#home div {
+    margin: auto;
+    display: block;
+    padding:20px;
+}
+
+#home {
+    padding: 30px;
+    text-align: justify;
+    /* justify-content: center; */
+}
+#home div:last-child{
+    text-align: center;
+    font-size: 20px;
+
+    
+}
+
+.social-icons i {
+    color: black;
+    padding: 12px;
+    font-size: 24px !important;
+    transition: 0.2s;
+    border-radius: 50%;
+}
+.two{
+    background-color: black;
+    color: black;
+}
+
+#footer{
+    background-color:rgb(181, 176, 186);
+}
+
+.download a{
+    text-align: center;
+}
+
+i{
+    color: black;
+    padding: 8px;
+    font-size: 23px !important;
+}
+
+#bar {
+    font-weight: 500;
+    border-left: 5px #ee3434 solid;
+}
+
+
+.percentage {
+    color: #ee3434;
+}
+
+#cover{
+    color: white;
+}
+
+
+li:hover{
+   background-color: rgb(239, 242, 246);
+   color: blue;
+   border-radius: 6%;
+}
+
+
+.frontend{
+    color: #ee3434;
+}
+
+.social-icons i:hover {
+    background-color: rgb(20, 4, 4);
+    color: white;
+}
+
+   
+
+
+
+
+.sk{
+    background-color: rgb(174, 195, 195);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
